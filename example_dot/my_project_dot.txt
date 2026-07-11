@@ -1,0 +1,39 @@
+---SYMBOLS---
+[PR]=My Project (path/to/project)
+[API]=My API service
+[DB]=Database
+[UI]=Frontend
+
+---TOC---
+1:Projects|1.1:My_Project
+2:Active_Tasks
+3:Decisions
+4:Patterns
+
+---CARDS---
+
+## [1] PROJECTS
+
+### [1.1] My Project
+STATUS: active
+LOCATION: path/to/project
+STACK: your tech stack here
+NEXT: what needs to happen next
+
+---
+
+## [2] ACTIVE TASKS
+TASK: example-task | STATUS: pending
+  Description of what needs to be done
+
+---
+
+## [3] DECISIONS
+DEC: example-decision
+  What was decided and why
+
+---
+
+## [4] PATTERNS
+PAT: example-pattern
+  A convention or gotcha worth remembering

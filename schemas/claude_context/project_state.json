@@ -1,0 +1,10 @@
+{
+  "name": {"type": "string", "description": "Project name"},
+  "status": {"type": "string", "description": "current | paused | shipped | blocked"},
+  "location": {"type": "string", "description": "Primary directory path"},
+  "summary": {"type": "string", "description": "One-sentence current state"},
+  "next_action": {"type": "string", "description": "What needs to happen next"},
+  "key_files": {"type": "array", "description": "Critical file paths to know"},
+  "blockers": {"type": "array", "description": "Anything blocking progress"},
+  "last_updated": {"type": "string", "description": "ISO date of last update"}
+}

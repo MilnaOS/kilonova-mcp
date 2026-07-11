@@ -1,0 +1,8 @@
+{
+  "name": {"type": "string", "description": "Task slug"},
+  "project": {"type": "string", "description": "Which project"},
+  "description": {"type": "string", "description": "What needs to be done"},
+  "status": {"type": "string", "description": "pending | in_progress | blocked | done"},
+  "depends_on": {"type": "array", "description": "Other tasks or conditions this needs first"},
+  "notes": {"type": "string", "description": "Context or partial progress"}
+}

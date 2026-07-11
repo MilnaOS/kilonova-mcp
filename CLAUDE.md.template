@@ -1,0 +1,31 @@
+# Claude Code — Session Startup
+
+At the start of every session, load your context DOT:
+
+```
+mcp__kilonova__dot_load(topic="claude_context")
+```
+
+This gives you current project state, active tasks, decisions, and patterns
+without burning context window on recaps.
+
+## Mid-session — persist what you learn
+
+Use `kb_write` to save decisions and discoveries as they happen:
+
+```
+mcp__kilonova__kb_write(
+  topic="claude_context",
+  entity_type="decision",
+  name="my-decision-slug",
+  data={
+    "name": "my-decision-slug",
+    "project": "My Project",
+    "decision": "What was decided",
+    "rationale": "Why",
+    "date": "2026-07-11"
+  }
+)
+```
+
+Entity types: project_state | decision | pattern | active_task | session_note

@@ -1,0 +1,8 @@
+{
+  "name": {"type": "string", "description": "Pattern slug"},
+  "project": {"type": "string", "description": "Project or 'global'"},
+  "rule": {"type": "string", "description": "The pattern or convention"},
+  "why": {"type": "string", "description": "Why this pattern exists"},
+  "example": {"type": "string", "description": "Concrete example or file path"},
+  "watch_out": {"type": "string", "description": "Common mistake to avoid"}
+}

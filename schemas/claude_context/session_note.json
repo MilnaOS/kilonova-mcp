@@ -1,0 +1,8 @@
+{
+  "name": {"type": "string", "description": "Session slug (e.g. 2026-07-11)"},
+  "date": {"type": "string", "description": "ISO date"},
+  "projects_touched": {"type": "array", "description": "Projects worked on"},
+  "key_changes": {"type": "array", "description": "What actually changed (files, decisions, builds)"},
+  "discoveries": {"type": "string", "description": "Non-obvious things learned"},
+  "left_off": {"type": "string", "description": "Exact state at end of session — where to resume"}
+}

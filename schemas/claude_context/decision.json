@@ -1,0 +1,8 @@
+{
+  "name": {"type": "string", "description": "Short decision slug"},
+  "project": {"type": "string", "description": "Which project this applies to"},
+  "decision": {"type": "string", "description": "What was decided"},
+  "rationale": {"type": "string", "description": "Why — the constraint or insight that drove it"},
+  "alternatives_rejected": {"type": "array", "description": "What was considered and why rejected"},
+  "date": {"type": "string", "description": "ISO date"}
+}
