@@ -15,7 +15,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://aimstudio.app"
-Repository = "https://github.com/aimstudio/kilonova-mcp"
+Repository = "https://github.com/MilnaOS/kilonova-mcp"
 
 [project.scripts]
 kilonova-mcp = "kilonova_mcp:main_sync"

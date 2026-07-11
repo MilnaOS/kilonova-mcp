@@ -30,7 +30,7 @@ pip install kilonova-mcp
 
 Or from source:
 ```bash
-git clone https://github.com/aimstudio/kilonova-mcp
+git clone https://github.com/MilnaOS/kilonova-mcp
 cd kilonova-mcp
 pip install -e .
 ```

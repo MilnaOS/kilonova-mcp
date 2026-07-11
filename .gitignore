@@ -3,6 +3,7 @@ __pycache__/
 *.pyo
 .env
 kb/
+session_logs/
 *.egg-info/
 dist/
 build/
