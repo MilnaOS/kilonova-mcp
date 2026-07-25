@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kilonova-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Persistent knowledge base MCP server for Claude Code — remember everything across sessions"
 readme = "README.md"
 license = "MIT"

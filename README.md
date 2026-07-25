@@ -1,6 +1,6 @@
 # Kilonova MCP
 
-<!-- mcp-name: io.github.milnaos/kilonova-mcp -->
+<!-- mcp-name: io.github.MilnaOS/kilonova-mcp -->
 
 **Persistent knowledge base tools for Claude Code.**  
 Claude remembers your projects, decisions, and patterns across sessions — stored on your machine, no cloud required.
