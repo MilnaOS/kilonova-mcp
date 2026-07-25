@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.milnaos/kilonova-mcp",
+  "title": "Kilonova MCP",
+  "description": "Persistent local knowledge for AI coding agents with structured records, search, and DOT context.",
+  "repository": {
+    "url": "https://github.com/MilnaOS/kilonova-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "kilonova-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "KILONOVA_KB_ROOT",
+          "description": "Directory where Kilonova stores local knowledge bases. Defaults to a platform-appropriate local path.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

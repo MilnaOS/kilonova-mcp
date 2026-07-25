@@ -1,13 +1,13 @@
 [build-system]
 requires = ["setuptools>=68"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "kilonova-mcp"
 version = "0.1.0"
 description = "Persistent knowledge base MCP server for Claude Code — remember everything across sessions"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 requires-python = ">=3.11"
 dependencies = [
     "mcp>=1.0.0",
@@ -19,6 +19,9 @@ Repository = "https://github.com/MilnaOS/kilonova-mcp"
 
 [project.scripts]
 kilonova-mcp = "kilonova_mcp:main_sync"
+
+[tool.setuptools]
+py-modules = ["kilonova_mcp"]
 
 [tool.setuptools.packages.find]
 where = ["."]

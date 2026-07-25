@@ -33,6 +33,7 @@ Then add to ~/.claude/CLAUDE.md:
 import json
 import os
 import sys
+import asyncio
 from pathlib import Path
 
 _HERE = Path(__file__).parent
@@ -354,6 +355,10 @@ async def main():
         await server.run(read_stream, write_stream, server.create_initialization_options())
 
 
-if __name__ == '__main__':
-    import asyncio
+def main_sync():
+    """Run the stdio MCP server from the installed console script."""
     asyncio.run(main())
+
+
+if __name__ == '__main__':
+    main_sync()
