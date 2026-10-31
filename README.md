@@ -91,13 +91,9 @@ mcp__kilonova__kb_search(topic="claude_context", query="authentication decision"
 
 ## The DOT Format
 
-A DOT is a plain text file with three sections:
+A DOT is a plain text file with two sections:
 
 ```
----SYMBOLS---
-[PR]=My Project (/path/to/project)
-[DB]=Database (PostgreSQL on localhost:5432)
-
 ---TOC---
 1:Projects|1.1:My_Project
 2:Active_Tasks
@@ -111,7 +107,7 @@ STATUS: active
 NEXT: wire up the auth flow
 ```
 
-Symbols compress repeated references. The TOC lets Claude fetch only the section it needs. Cards hold the actual content.
+The TOC lets Claude fetch only the section it needs. Cards hold the actual content.
 
 See `example_dot/` for a starter template.
 

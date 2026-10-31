@@ -135,7 +135,7 @@ async def list_tools() -> list[Tool]:
             name='dot_load',
             description=(
                 'Load the full DOT (Document of Truth) for a KB topic. '
-                'A DOT is a compressed, structured reference document with symbols, TOC, and cards. '
+                'A DOT is a compressed, structured reference document with a TOC and cards. '
                 'Use dot_load("claude_context") at session start to load your persistent working memory.'
             ),
             inputSchema={
